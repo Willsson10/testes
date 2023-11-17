@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+section.postagem {
+    max-width: 500px;
+    max-height: 1000px;
+    background-color: lightblue;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.398);
+}
+
+img.perfil {
+    max-width: 75px;
+    max-height: 75px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(98, 98, 175);
+}
+
+p.nome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder ;
+    font-size: 1.2em;
+    position: absolute;
+    display: inline;
+    padding: 40px 0px;
+}
+
+p.comentario {
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+img.foto {
+    max-height: 270px;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+ul.reacoes {
+    list-style: none;
+    display: flex;
+    border-radius: 10px;
+    border-top: 1px solid black;
+    margin: auto;
+}
+
+img.icone {
+    max-width: 30px;
+    padding: 15px 20px 10px 20px;
+}

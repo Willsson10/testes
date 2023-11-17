@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    width: 98vw;
+    height: 100vh;
+    background-image: url('../imagens/fundo-2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+h1.titulo {
+    background-color: rgb(68, 68, 129);
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.500);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.500);
+}
+
+h1.titulo > a {
+    text-decoration: none;
+    color: white;
+}
+
+h1.titulo a:hover {
+    color: lightblue;
+}
+
+main {
+    padding-top: 150px;
+}
