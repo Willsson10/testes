@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.simbolo {
+    background-color: red;
+    max-width: 40px;
+    padding-left: 10px;
+}
+
+.simbolo:active ~ div.conteudo{
+    display: block;
+}
+
+.conteudo {
+    width: 20vh;
+    height: 100vh;
+    background-color: red;
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.icones {
+    padding: 20px 0px;
+}
+
+.icones:hover {
+    background-color: skyblue;
+}
+
+.icones img {
+    max-width: 40px;
+    padding-left: 10px;
+}
+
+li {
+    display: inline;
+}
